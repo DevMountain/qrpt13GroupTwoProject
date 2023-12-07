@@ -1,5 +1,5 @@
-import { Mars } from "./marsPage";
-const mars = new Mars(); 
+import { statsNFL } from "./jeorgiPage"; 
+const stats = new statsNFL(); 
 
 test("", async () => {
 
