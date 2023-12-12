@@ -8,6 +8,8 @@ export class courtney extends BasePage {
     teamschedules: By=By.xpath('(//span[@class ="d3-o-nav__item-label"])[63]');
     steelers: By=By.xpath('(//a[@class="d3-o-media-object__link d3-o-button nfl-o-cta nfl-o-cta--primary"])[7]');
     billstickets: By=By.xpath('(//a[@class="d3-o-media-object__link d3-o-button nfl-o-cta nfl-o-cta--primary"])[12]');
+    dropdown: By=By.xpath('//div[@class="nfl-c-form__group"][2]');
+    week10: By=By.xpath('//*[text()="WEEK 10"]');
 
     constructor(){
         super({url: 'https://www.nfl.com/'});
